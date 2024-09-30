@@ -90,7 +90,7 @@ select{
     border-radius: 30px;
     border-radius: 5px;
     border: 1px solid rgb(194, 194, 194);
-    padding: 4px 47px;
+    padding: 5px 45px;
 }
 
 /* Styling of options nested in select input */
@@ -122,7 +122,7 @@ span{
     }
 
     select{
-        padding: 4px 57px;
+        padding: 5px 45px;
     }
 
     p{
