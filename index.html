@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>      <!-- Main container --> 
+        <h1>BMI Calculator</h1>
+        
+        <form action="" id="form">
+            <input type="radio" name="option" value="kg" id="kg" required>
+            <label for="kg" class="ww">Kg</label>
+        
+            <input type="radio" name="option" value="pounds" id="pounds" required>
+            <label for="pounds" class="ww">Pounds</label>
+            
+            <br>
+
+            <input type="text" id="weight"  placeholder="Enter weight e.g '90'" required>
+            <br>
+            
+            
+            <select name="height" id="height" class="select" required>
+                <option value="">--select height--</option>
+                <option value="1.52">5 ft - 1.52m</option>
+                <option value="1.55">5 ft 1 - 1.55m</option>
+                <option value="1.57">5 ft 2 - 1.57m</option>
+                <option value="1.60">5 ft 3 - 1.60m</option>
+                <option value="1.63">5 ft 4 - 1.63m</option>
+                <option value="1.65">5 ft 5 - 1.65m</option>
+                <option value="1.68">5 ft 6 - 1.68m</option>
+                <option value="1.70">5 ft 7 - 1.70m</option>
+                <option value="1.73">5 ft 8 - 1.73m</option>
+                <option value="1.75">5 ft 9 - 1.75m</option>
+                <option value="1.78">5 ft 10 - 1.78m</option>
+                <option value="1.80">5 ft 11 - 1.80m</option>
+                <option value="1.83">6 ft - 1.83m</option>
+                <option value="1.85">6 ft 1 - 1.85m</option>
+                <option value="1.88">6 ft 2 - 1.88m</option>
+                <option value="1.91">6 ft 3 - 1.91m</option>
+                <option value="1.93">6 ft 4 - 1.93m</option>
+                <option value="1.96">6 ft 5 - 1.96m</option>
+                <option value="1.98">6 ft 6 - 1.98m</option>
+                <option value="2.01">6 ft 7 - 2.01m</option>
+                <option value="2.03">6 ft 8 - 2.03m</option>
+                <option value="2.06">6 ft 9 - 2.06m</option>
+                <option value="2.08">6 ft 10 - 2.08m</option>
+                <option value="2.11">6 ft 11 - 2.11m</option>
+            </select>
+
+            <br>
+            
+            <button type="submit">Calculate</button>
+        </form>
+
+        <!-- Empty span elements for holding dynamic javascript text -->
+        <div><span id="empty"></span> <span id="bmi"></span> <br> <span id="comment"></span> <span id="result"></span></div>   <!-- empty HTML tags for innerHTML text -->  
+        <p>A healthy BMI score is between 18.5 and 25 :)</p>   
+    </section>
+    
+    <script src="bmi.js"></script>
+</body>
+</html>
