@@ -60,7 +60,7 @@ form.addEventListener('submit', (e) => {
     else if(resultElement.innerText>35){
         empty.innerText = `Your BMI is;`
         bmiElement.innerText = resultElement.innerText
-        comment.innerText = `You fall under the obessed category:(` 
+        comment.innerText = `You fall under the obese category:(` 
         resultElement.innerText = ''
     }
 }); 
