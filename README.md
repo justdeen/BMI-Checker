@@ -44,4 +44,4 @@ BMI Ranges;
 2. Clear input fields and labels for weight and height.
 3. Dropdown menu for height selection.
 
-Link -
+Link - https://just-deen.github.io/BMI-Checker/
