@@ -2,7 +2,7 @@
 When the page is loaded, you simply specify your weight (in pounds or kilograms) in the input field and select your height from a dropdown option (html select input element), where you simply identify your height in Feet & Inches. After providing the necessary inputs, you can proceed to click the "calculate" button which will display your bmi score alongside a comment which categorizes you as underweight, healthy, overweight or obsessed. 
 
 
-## Features
+## 🪄 Features
 1. Weight input in kilograms (kg) or pounds (lbs).
 2. Height selection from a dropdown menu.
 3. Accurate BMI classification according to WHO standards.
