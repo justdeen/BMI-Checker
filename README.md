@@ -2,7 +2,7 @@
 When the page is loaded, you simply specify your weight (in pounds or kilograms) in the input field and select your height from a dropdown option (html select input element), where you simply identify your height in Feet & Inches. After providing the necessary inputs, you can proceed to click the "calculate" button which will display your bmi score alongside a comment which categorizes you as underweight, healthy, overweight or obsessed. 
 
 
-## 🪄 Features
+## Features
 1. Weight input in kilograms (kg) or pounds (lbs).
 2. Height selection from a dropdown menu.
 3. Accurate BMI classification according to WHO standards.
@@ -11,12 +11,12 @@ When the page is loaded, you simply specify your weight (in pounds or kilograms)
 ### 🗃 Parsing User Input to Js Variables 
 The input provided by the user is parsed to js variables which then allowed me to use the formula for calculating BMI (weight in kg/height**2 in meters) to compute and display the BMI score.
 
-🎈 1. Weight input: before any calculation is done, the user has to specify if the value of weight entered is in pounds or kilograms using the radio button option. When either kg or pounds has been selected, the "querySelector" method is then use to point to the particular radio input which has been selected. 
+1. Weight input: before any calculation is done, the user has to specify if the value of weight entered is in pounds or kilograms using the radio button option. When either kg or pounds has been selected, the "querySelector" method is then use to point to the particular radio input which has been selected. 
 The user's input for weight is then parsed to a js variable.
 
    The BMI will then be calculated differently for pounds or kg input and this is done by using an "if" command to check if the radio input was kg or pounds and calculate the BMI with respect to the radio inputs.
 
-🎈 2. Height input: the height input is parsed to a js variable by pointing to the value of the particular html select option which was selected by the user. 
+2. Height input: the height input is parsed to a js variable by pointing to the value of the particular html select option which was selected by the user. 
 
 
 ### 🔊 Eventlistener for Parsing Inputs and Displaying BMI
