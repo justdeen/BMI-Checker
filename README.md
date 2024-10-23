@@ -43,5 +43,3 @@ BMI Ranges;
 1. Clean and intuitive design for easy user experience.
 2. Clear input fields and labels for weight and height.
 3. Dropdown menu for height selection.
-
-Link - https://just-deen.github.io/BMI-Checker/
